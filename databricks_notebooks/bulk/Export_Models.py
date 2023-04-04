@@ -47,8 +47,8 @@ notebook_formats = dbutils.widgets.get("7. Notebook formats")
 dbutils.widgets.dropdown("8. Use threads","no",["yes","no"])
 use_threads = dbutils.widgets.get("8. Use threads") == "yes"
 
-export_notebook_revision = False
-export_all_runs = False
+# export_notebook_revision = False
+# export_all_runs = False
 
 import os
 os.environ["OUTPUT_DIR"] = output_dir
